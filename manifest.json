@@ -1,0 +1,28 @@
+{
+    "manifest_version": 2.0,
+    "id": "examplemonzphere",
+    "namespace": "ExampleMonzphere",
+    "name": "🎯 Example Monzphere - Tutorial Interativo / Interactive Tutorial",
+    "version": "1.0",
+    "description": "Tutorial prático e interativo de desenvolvimento de módulos Zabbix. Demonstrando como usar APIs, criar interfaces modernas e implementar funcionalidades interativas. // Practical and interactive tutorial for Zabbix module development. Demonstrating how to use APIs, create modern interfaces and implement interactive features.",
+    "author": "Monzphere - Tutorial Educativo / Educational Tutorial",
+    "url": "https://github.com/monzphere/example-zabbix-module",
+    "actions": {
+        "examplemonzphere.view": {
+            "class": "ExampleMonzphereView",
+            "view": "examplemonzphere.view",
+            "layout": "layout.htmlpage"
+        },
+        "examplemonzphere.data": {
+            "class": "ExampleMonzphereData"
+        }
+    },
+    "assets": {
+        "css": [
+            "examplemonzphere.css"
+        ],
+        "js": [
+            "examplemonzphere.js"
+        ]
+    }
+}
