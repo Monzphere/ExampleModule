@@ -1,5 +1,8 @@
 # 🎯 Example Monzphere - Tutorial Interativo / Interactive Tutorial
 
+![image](https://github.com/user-attachments/assets/0299be87-d1ac-4de1-a7ab-cc7e54473b25)
+
+
 ## 🌍 Multilingual Module / Módulo Multilíngue
 
 Este módulo foi desenvolvido com suporte completo à internacionalização do Zabbix, incluindo comentários bilíngues (Português/Inglês) e uso da função `_()` para tradução.
